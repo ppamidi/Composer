@@ -53,7 +53,6 @@
   
     [[FWRequestManager requestManager] unRegisterInterceptor:self];
     self.connection = [[NSURLConnection alloc]initWithRequest:customRequest delegate:self startImmediately:NO];
-    
     [self.connection start];
 }
 
