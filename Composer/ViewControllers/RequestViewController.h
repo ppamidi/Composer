@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RequestViewController.h
 //  Composer
 //
 //  Created by Prasad Pamidi on 3/12/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RequestViewController : UITableViewController
 
 @end

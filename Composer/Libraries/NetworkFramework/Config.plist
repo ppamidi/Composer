@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseURL</key>
+	<string>http://localhost:8888/Hercules/public/Services/</string>
+	<key>SecureBaseURL</key>
+	<string>http://localhost:8888/Hercules/public/Services/</string>
+	<key>Secure Request</key>
+	<string>YES</string>
+	<key>Request Timeout Interval</key>
+	<string>10</string>
+	<key>SecureTokenURL</key>
+	<string>https://stg.authorization.go.com/token</string>
+	<key>RegistrationRequestURL</key>
+	<string>RegisterDevice</string>
+	<key>Registration Request Info</key>
+	<dict>
+		<key>RegistrationRequestType</key>
+		<integer>1</integer>
+		<key>RegistrationRequestURL</key>
+		<string>RegisterDevice</string>
+	</dict>
+	<key>Use Secure Token</key>
+	<true/>
+	<key>Encrypt Request Params</key>
+	<true/>
+	<key>Log Requests</key>
+	<true/>
+	<key>Secure Token Info</key>
+	<dict>
+		<key>Client ID</key>
+		<string>NGE-MYMAGIC.GUEST.LOOK.UP.PRE-STAGE</string>
+		<key>Client Secret</key>
+		<string>9645a87c853f8e14b14155f3a44888a6</string>
+		<key>Grant Type</key>
+		<string>client_credentials</string>
+		<key>Scope</key>
+		<string>RETURN_ALL_CLIENT_SCOPES</string>
+	</dict>
+	<key>Request Scheduler Info</key>
+	<dict>
+		<key>Scheduler Request Type</key>
+		<integer>0</integer>
+		<key>Scheduler Request URL</key>
+		<string>StoredTicketStatus</string>
+		<key>Delegation Class</key>
+		<string>ViewController</string>
+		<key>Notification Interval</key>
+		<string>30</string>
+	</dict>
+</dict>
+</plist>

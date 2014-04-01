@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Non Secure Base URL</key>
+	<string>http://localhost:8888/Hercules/public/Services/</string>
+	<key>Secure Base URL</key>
+	<string>http://localhost:8888/Hercules/public/Services/</string>
+	<key>Device Unique ID</key>
+	<string>D8B20FB7-100F-427B-BF06-6C83CE009083</string>
+	<key>Swipe Animation Screens</key>
+	<array>
+		<string>s01_1.png</string>
+		<string>s02_2.png</string>
+		<string>s03_3.png</string>
+		<string>s04_4.png</string>
+		<string>s05_5.png</string>
+		<string>s06_6.png</string>
+		<string>s07_7.png</string>
+		<string>s08_8.png</string>
+		<string>s09_9.png</string>
+		<string>s10_10.png</string>
+		<string>s11_11.png</string>
+		<string>s12_12.png</string>
+		<string>s13_13.png</string>
+		<string>s14_14.png</string>
+		<string>s15_15.png</string>
+		<string>s16_16.png</string>
+		<string>s17_17.png</string>
+		<string>s18_18.png</string>
+		<string>s19_19.png</string>
+		<string>s20_20.png</string>
+		<string>s21_21.png</string>
+		<string>s22_22.png</string>
+		<string>s23_23.png</string>
+		<string>s24_24.png</string>
+		<string>s25_25.png</string>
+	</array>
+	<key>RFID Animation Screens</key>
+	<array>
+		<string>t01_1.png</string>
+		<string>t02_2.png</string>
+		<string>t03_3.png</string>
+		<string>t04_4.png</string>
+		<string>t05_5.png</string>
+		<string>t06_6.png</string>
+		<string>t07_7.png</string>
+		<string>t08_8.png</string>
+		<string>t09_9.png</string>
+		<string>t10_10.png</string>
+		<string>t11_11.png</string>
+		<string>t12_12.png</string>
+		<string>t13_13.png</string>
+		<string>t14_14.png</string>
+		<string>t15_15.png</string>
+		<string>t16_16.png</string>
+	</array>
+	<key>Barcode Animation Screens</key>
+	<array>
+		<string>b01_1.png</string>
+		<string>b02_2.png</string>
+		<string>b03_3.png</string>
+		<string>b04_4.png</string>
+		<string>b05_5.png</string>
+		<string>b06_6.png</string>
+		<string>b07_7.png</string>
+		<string>b08_8.png</string>
+		<string>b09_9.png</string>
+		<string>b10_10.png</string>
+		<string>b11_11.png</string>
+		<string>b12_12.png</string>
+		<string>b13_13.png</string>
+		<string>b14_14.png</string>
+		<string>b15_15.png</string>
+		<string>b16_16.png</string>
+		<string>b17_17.png</string>
+		<string>b18_18.png</string>
+		<string>b19_19.png</string>
+		<string>b20_20.png</string>
+		<string>b21_21.png</string>
+		<string>b22_22.png</string>
+		<string>b23_23.png</string>
+		<string>b24_24.png</string>
+		<string>b25_25.png</string>
+		<string>b26_26.png</string>
+	</array>
+	<key>Wifi SSID</key>
+	<string>WLAN-TWDC</string>
+	<key>Batch size</key>
+	<integer>50</integer>
+	<key>Success Notification Interval</key>
+	<integer>300</integer>
+	<key>Failure Notification Interval</key>
+	<integer>30</integer>
+</dict>
+</plist>

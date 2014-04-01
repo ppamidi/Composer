@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RequestLog" representedClassName="RequestLog" syncable="YES">
+        <attribute name="requestBody" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestHeaders" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestMethod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requestURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="responseCode" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="responseMessage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <fetchRequest name="GetAllRequests" entity="RequestLog"/>
+    <elements>
+        <element name="RequestLog" positionX="-1737" positionY="-198" width="128" height="163"/>
+    </elements>
+</model>
